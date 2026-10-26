@@ -20,7 +20,7 @@ public class Institute2 {
 
 	public static void main(String[] args) {
 		System.out.println("main method called");
-		em1.show();
+		//em1.show();
 		// TODO Auto-generated method stub
 
 	}

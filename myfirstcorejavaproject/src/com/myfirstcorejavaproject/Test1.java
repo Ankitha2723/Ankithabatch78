@@ -7,6 +7,8 @@ public class Test1 {
 	//	Test1 t1 = new Test1();
 	}
 	 static Test1 t1 = new Test1();
+	 public int b;
+	 public int a;
 	//instance block
 	{
 		
