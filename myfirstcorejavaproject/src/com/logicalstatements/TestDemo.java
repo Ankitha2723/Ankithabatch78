@@ -30,6 +30,7 @@ public class TestDemo {
 		break;
 		case(7):
 			System.out.println("sunday");
+		break;
 		default:
 			System.out.println("not in my list");
 
