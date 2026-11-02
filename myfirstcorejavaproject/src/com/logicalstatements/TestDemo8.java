@@ -35,6 +35,10 @@ public class TestDemo8 {
 					System.out.println("invaliide units");
 				
 			}
+				total=(rate*unit);
+				System.out.println("total units:"+total);
+				
+				
 				}
 				case 2->{
 					if(unit<=100) {
