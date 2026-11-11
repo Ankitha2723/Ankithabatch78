@@ -1,0 +1,30 @@
+package com.myfirstcorejavaproject.looping;
+
+import java.util.Scanner;
+
+public class Demo6 {
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a number");
+
+        int n = sc.nextInt();
+
+        number(n);
+        
+        sc.close();
+    }
+
+    static int number(int n) {
+
+        if (n ==0 ) {
+            return n;
+        }
+
+        System.out.println(n);
+
+        return number(n - 1);
+    }
+}
