@@ -7,7 +7,7 @@ public class TestDemo {
 
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
-		int rn=rs.nextInt(10);
+		int rn=sc.nextInt(10);
 		
 	
 		
